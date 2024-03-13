@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <div class="right-navbar">
-                        <h4>Contact Us</h4>
+                        <h4 class="click">Contact Us</h4>
                     </div>
 
                 </div>
@@ -83,7 +83,7 @@
                     <div class="travel-para">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non iste aliquid quasi hic quas
                             numquam, porro aliquam provident eos saepe autem ipsam aut animi. Lorem ipsum dolor sit.
-                            Lorem, ipsum.</p>
+                            Lorem,</p>
                     </div>
                     <div class="travel-btn">
                         <button>My Travel Logs</button>
@@ -223,11 +223,14 @@
         <div class="checklist">
             <div class="inner-checklist">
                 <div class="left-checklist">
+                    <div class="checklist-hidden-img">
+                        <img src="./image/checklistimg.jpg" height="485px" alt="">
+                    </div>
                     <h1>Lorem ipsum dolor sit amet consectetur</h1>
                     <div class="checklist-lowerpart">
                         <div class="checklist-line"></div>
                         <div class="checklist-content">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. lorem </p>
+                            <p>Lorem ipsum, dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur  </p>
                             <i class="fa-solid fa-plus plusicon"></i>
                         </div>
                     </div>
@@ -235,7 +238,7 @@
                     <div class="checklist-lowerpart">
                         <div class="checklist-line"></div>
                         <div class="checklist-content">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. lorem </p>
+                            <p>Lorem ipsum, dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur  </p>
                             <i class="fa-solid fa-plus plusicon"></i>
                         </div>
                     </div>
@@ -243,7 +246,7 @@
                     <div class="checklist-lowerpart">
                         <div class="checklist-line"></div>
                         <div class="checklist-content">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. lorem </p>
+                            <p>Lorem ipsum, dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur  </p>
                             <i class="fa-solid fa-plus plusicon"></i>
                         </div>
                     </div>
@@ -251,16 +254,15 @@
                     <div class="checklist-lowerpart">
                         <div class="checklist-line"></div>
                         <div class="checklist-content">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. lorem </p>
+                            <p>Lorem ipsum, dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur  </p>
                             <i class="fa-solid fa-plus plusicon"></i>
                         </div>
+                        <div class="checklist-line"></div>
                     </div>
-                    <div class="checklist-line"></div>
 
                 </div>
                 <div class="right-checklist">
-                    <img src="./image/checklistimg.jpg" height="460px" alt="">
-
+                    <img src="./image/checklistimg.jpg"  alt="">
                 </div>
             </div>
         </div>
@@ -312,6 +314,7 @@
 
                         <div class="feedback-righticon">
                             <i class="fa-solid fa-arrow-right arrow-right"></i>
+                            
 
                         </div>
                     </div>
@@ -336,7 +339,7 @@
                     <div class="inputt">
                         <input type="email" placeholder="Email Subject*">
                     </div>
-                    <textarea placeholder="Write Something here..." cols="60" rows="10"></textarea>
+                    <textarea placeholder="Write Something here..." cols="63" rows="10"></textarea>
 
                     <input class="contact-btn" type="submit" style="background-color: black; color: white;"
                         value="Submit Email">
@@ -349,57 +352,64 @@
         </div>
 
 
-        <!--                  
+
         <div class="footer-section">
             <div class="inner-footersection">
-                <div class="left-footersection">
-                    <div class="footercontent">
-                        <p>My Log Travels
-                        </p>
-                    </div>
+                <div class="left-footerside">
+                    <h1>My Log Travels</h1>
+
                 </div>
-                <div class="rightfootersection">
-                    <div class="footeruppercontent">
+                <div class="right-footerside">
+                    <div class="upper-footersection">
                         <h2>Quick Links</h2>
-                        <table>
-                            <tr>
-                                <td>Home</td>
-                                <td>Travels</td>
-                                <td>Recommendations</td>
-                                <td>Mission Statement</td>
-                            </tr>
-                            <tr>
-                                <td>About Us</td>
-                                <td>Promo Flights</td>
-                                <td>Guides</td>
-                                <td>The Team</td>
-                            </tr>
-                            <tr>
-                                <td>My travel Logs</td>
-                                <td>Travels Routes</td>
-                                <td>Blogs</td>
-                                <td>Contact Us</td>
-                            </tr>
-                        </table>
                     </div>
-                    <div class="footerlowercontent">
-                        <p>2021-2022 My log Travels.All Rights Reserved</p>
+                    <div class="lower-footersection">
+                        <div class="left-lower">
+                            <div class="firstset same-footerclass">
+                                <p>Home</p>
+                                <p>About Us</p>
+                                <p>My Travel Logs</p>
+                            </div>
+                            <div class="secondset same-footerclass">
+                                <p>Travels</p>
+                                <p>Promo Flights</p>
+                                <p>Travel Routes</p>
+                            </div>
+                        </div>
+                        <div class="right-lower">
+                            <div class="thirdset same-footerclass">
+                                <p>Recommendations</p>
+                                <p>Guides</p>
+                                <p>Blogs</p>
+                            </div>
+                            <div class="fourthset same-footerclass">
+                                <p>Mission Statement</p>
+                                <p>The Teams</p>
+                                <p>Contact Us</p>
+                            </div>
+                        </div>
+
                     </div>
+
+                    <div class="last-footer-para">
+                        <p>2021 - 2022 My Log Travels. All Rights Reserved</p>
+                    </div>
+
                 </div>
             </div>
-        </div>   -->
+        </div>
 
     </div>
 
     <script>
         function openMenu() {
             const getMenu = document.querySelector('.menu-section');
-            getMenu.style.display = 'block'
+            getMenu.style.left = '0%'
         }
 
         function closemenu() {
             const closeMenu = document.querySelector('.menu-section');
-            closeMenu.style.display = 'none'
+            closeMenu.style.left = '-50%'
         }
     </script>
 </body>
